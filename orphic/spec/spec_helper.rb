@@ -1,5 +1,11 @@
 require "bundler/setup"
 require "orphic"
+require 'coveralls'
+Coveralls.wear!
+
+require 'pry'
+require 'thor'
+
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

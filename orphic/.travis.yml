@@ -4,3 +4,12 @@ cache: bundler
 rvm:
   - 2.7.2
 before_install: gem install bundler -v 2.1.4
+
+script: 'bundle exec rake'
+
+notifications:
+  email:
+    recipients:
+      - cli@orphic.enterprises
+    on_failure: change
+    on_success: never
