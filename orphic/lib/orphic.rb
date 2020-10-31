@@ -1,13 +1,6 @@
 require "orphic/version"
-require "thor/version"
+require "orphic/cli"
 
 module Orphic
-  class OrphicCli < Thor
-    desc "hello NAME", "say hello to NAME"
-    def hello(name)
-      puts "Hello #{name}"
-    end
-  end
+  puts "Hallo warld!"  
 end
-
-Orphic::OrphicCli.start(ARGV)
