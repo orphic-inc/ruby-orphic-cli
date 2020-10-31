@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
 
 require "orphic"
-Orphic::HammerOfTheGods.start( ARGV )
+Orphic::Mjolnir.start( ARGV )
