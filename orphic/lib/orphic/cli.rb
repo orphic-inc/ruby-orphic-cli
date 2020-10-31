@@ -22,10 +22,4 @@ module Orphic
       puts greeting
     end
   end
-  class AlltHecuRsed < Thor
-    desc "hello PLANET", "say hello to PLANET"
-    def hello(planet)
-      puts "Hello #{planet}"
-    end
-  end
 end
