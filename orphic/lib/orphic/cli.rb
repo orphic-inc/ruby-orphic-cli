@@ -1,5 +1,5 @@
 require 'thor'
-require 'orphic/cli/hn'
+require 'orphic/cli/node'
 
 module Orphic
   class Mjolnir < Thor
@@ -15,7 +15,7 @@ module Orphic
       greeting.upcase! if options[:upcase]
       puts greeting
     end
-    desc "hn COMMANDS", "Hacker News Control Module"
-    subcommand "hn", Orphic::OrphicCli::Hn
+    desc "node COMMANDS", "Node.JS Commands"
+    subcommand "node", Orphic::OrphicCli::Node
   end
 end
