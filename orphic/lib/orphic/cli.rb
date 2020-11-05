@@ -1,5 +1,6 @@
 require 'thor'
 require 'orphic/cli/node'
+require 'orphic/cli/district'
 
 module Orphic
   class Mjolnir < Thor
@@ -17,5 +18,7 @@ module Orphic
     end
     desc "node COMMANDS", "Node.JS Commands"
     subcommand "node", Orphic::OrphicCli::Node
+    desc "map DISTRICT ...ARGS", "View map for a district"
+    subcommand "map", Orphic::OrphicCli::District
   end
 end
