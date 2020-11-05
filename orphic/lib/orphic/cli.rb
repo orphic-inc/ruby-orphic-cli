@@ -1,6 +1,7 @@
 require 'thor'
 require 'orphic/cli/node'
 require 'orphic/cli/district'
+require 'cli/ui'
 
 module Orphic
   class Mjolnir < Thor
@@ -14,7 +15,9 @@ module Orphic
     def hello( name )
       greeting = "Hello, #{name}"
       greeting.upcase! if options[:upcase]
-      puts greeting
+      CLI::UI::Frame.open( greeting ) do
+        puts greeting + " from the frame"
+      end
     end
     desc "node COMMANDS", "Node.JS Commands"
     subcommand "node", Orphic::OrphicCli::Node

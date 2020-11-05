@@ -48,7 +48,9 @@ module Orphic
         baseLoyal = "Loyal District info" if options[:loyal]
         baseEnthuse = "Enthuse District info" if options[:enthuse]
         baseClarity = "Clarity District info" if options[:clarity]
-        puts "#{viewDistrict}"
+        CLI::UI::Frame.open( "Map :: District : " + viewDistrict ) do
+          puts "#{viewDistrict}"
+        end
       end
       desc "createDistrict", "Create a new district with <createDistrict>"
       long_desc <<-CREATE_DISTRICT
@@ -58,7 +60,9 @@ module Orphic
       CREATE_DISTRICT
       def createDistrict ( createDistrict )
         # implement createDistrict
-        puts "#{createDistrict}"
+        CLI::UI::Frame.open( "Map :: District : Create " + createDistrict ) do
+          puts "#{createDistrict}"
+        end
       end
     end
   end
