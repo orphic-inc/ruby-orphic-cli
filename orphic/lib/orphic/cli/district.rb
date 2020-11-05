@@ -7,9 +7,9 @@ module Orphic
 
         View districts with <district>. Base map includes the following options for branching:
 
-        --awake - The entrypoint, learn more about the Awake district with this option. Aliased with --aw
-        --grow - This typically involves UI/UX and likely what led you to this CLI. Growth continues... Aliased with --gr
-        --discover - Your current location, learn more about the Discover district with this option. Aliased with --di
+        --awake - The entrypoint, learn more about the Awake district with this option.
+        --grow - This typically involves UI/UX and likely what led you to this CLI. Growth continues...
+        --discover - Your current location, learn more about the Discover district with this option.
         --trust - Relates to cryptography and cyphers.
         --truth - Relates to verified authorizations.
         --magic - Let the magic begin! Related to ephemeral changes and middleware.
@@ -19,8 +19,6 @@ module Orphic
         --loyal - The gauntlet.
         --enthuse - Relates to live events and promotions.
         --clarity - The endgame.
-
-        Or with <createDistrict>, create a new district.
       DISTRICT
       option :awake
       option :grow
