@@ -5,11 +5,6 @@ require 'cli/ui'
 
 module Orphic
   class Mjolnir < Thor
-    CLI::UI::StdoutRouter.enable
-    CLI::UI::Frame.open('Orphic Developer Experience') do
-      CLI::UI::Frame.open('Ruby CLI') { puts "The Orphic Ruby CLI utilizes the Thor gem for self-documenting commands and cli-ui gem for UI." }
-      puts "Great minds never think alike."
-    end
     desc "hello NAME", "This will greet you"
     long_desc <<-HELLO_WORLD
 
@@ -20,7 +15,9 @@ module Orphic
     def hello( name )
       greeting = "Hello, #{name}"
       greeting.upcase! if options[:upcase]
-      puts greeting
+      CLI::UI::Frame.open( greeting ) do
+        puts greeting + " from the frame"
+      end
     end
     desc "node COMMANDS", "Node.JS Commands"
     subcommand "node", Orphic::OrphicCli::Node
