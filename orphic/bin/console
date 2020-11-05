@@ -3,7 +3,7 @@
 require "bundler/setup"
 require "orphic"
 
-Orphic::HammerOfTheGods.start( ARGV )
+Orphic::Mjolnir.start( ARGV )
 
 # You can add fixtures and/or initialization code here to make experimenting
 # with your gem easier. You can also use a different console, if you like.
