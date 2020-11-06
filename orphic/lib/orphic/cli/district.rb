@@ -5,7 +5,17 @@ module Orphic
       long_desc <<-DISTRICT
         Commands for a specific district.
 
-        View districts with <district>. Base map includes the following options for branching:
+        View districts with <district>. 
+      DISTRICT
+      def district( viewDistrict )
+        # implement viewDistrict
+        CLI::UI::Frame.open( "Map :: District : " + viewDistrict ) do
+          puts "#{viewDistrict}"
+        end
+      end
+      desc "createDistrict", "Create a new district with <createDistrict>"
+      long_desc <<-CREATE_DISTRICT
+        Create a new district with createDistrict. Base map includes the following options for branching:
 
         --awake - The entrypoint, learn more about the Awake district with this option.
         --grow - This typically involves UI/UX and likely what led you to this CLI. Growth continues...
@@ -19,7 +29,7 @@ module Orphic
         --loyal - The gauntlet.
         --enthuse - Relates to live events and promotions.
         --clarity - The endgame.
-      DISTRICT
+      CREATE_DISTRICT
       option :awake
       option :grow
       option :discover
@@ -32,8 +42,7 @@ module Orphic
       option :loyal
       option :enthuse
       option :clarity
-      def district( viewDistrict )
-        # implement viewDistrict
+      def createDistrict ( createDistrict )
         baseAwake = "Awake District info" if options[:awake]
         baseGrow = "Grow District info" if options[:grow]
         baseDiscover = "Discover District info" if options[:discover]
@@ -46,17 +55,6 @@ module Orphic
         baseLoyal = "Loyal District info" if options[:loyal]
         baseEnthuse = "Enthuse District info" if options[:enthuse]
         baseClarity = "Clarity District info" if options[:clarity]
-        CLI::UI::Frame.open( "Map :: District : " + viewDistrict ) do
-          puts "#{viewDistrict}"
-        end
-      end
-      desc "createDistrict", "Create a new district with <createDistrict>"
-      long_desc <<-CREATE_DISTRICT
-        Create a new district with createDistrict.
-
-        TODO
-      CREATE_DISTRICT
-      def createDistrict ( createDistrict )
         # implement createDistrict
         CLI::UI::Frame.open( "Map :: District : Create " + createDistrict ) do
           puts "#{createDistrict}"
