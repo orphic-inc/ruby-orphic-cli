@@ -17,18 +17,18 @@ module Orphic
       long_desc <<-CREATE_DISTRICT
         Create a new district with createDistrict. Base map includes the following options for branching:
 
-        --awake - The entrypoint, learn more about the Awake district with this option.
-        --grow - This typically involves UI/UX and likely what led you to this CLI. Growth continues...
-        --discover - Your current location, learn more about the Discover district with this option.
-        --trust - Relates to cryptography and cyphers.
-        --truth - Relates to verified authorizations.
-        --magic - Let the magic begin! Related to ephemeral changes and middleware.
-        --poetry - The poet, the lover, and the coder are of imagination all compact...
-        --drive - Relates to real-time commands that will effect a concurrent stream or processes.
-        --will - Relates to databases and permanence.
-        --loyal - The gauntlet.
-        --enthuse - Relates to live events and promotions.
-        --clarity - The endgame.
+        --awake - The entrypoint. Create command line interfaces, web portals, and related tech.
+        --grow - User Interfaces and Experiences, projects here relate to front-end like React, CSS, and prototypes.
+        --discover - Your current location. Educate your peers or yourself.
+        --trust - Create authorization, cyphers, and cryptography-related projects.
+        --truth - The gateway. Can be used to verify authorizations and is often tied to the Trust District.
+        --magic - Let the magic begin! Here you can create ephemeral changes and middleware.
+        --poetry - The poet, the lover, and the coder are of imagination all compact... Code as art.
+        --drive - Real-time commands that will effect a concurrent stream or processes.
+        --will - Databases and permanence.
+        --loyal - The gauntlet. Test your loyalty with user or unit testing.
+        --enthuse - Live events and promotions.
+        --clarity - The endgame, from your command-line, through staging and production.
       CREATE_DISTRICT
       option :awake
       option :grow
