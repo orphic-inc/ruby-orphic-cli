@@ -23,5 +23,6 @@ module Orphic
     subcommand "node", Orphic::OrphicCli::Node
     desc "map DISTRICT ...ARGS", "View map for a district"
     subcommand "map", Orphic::OrphicCli::District
+    desc "media TYPE", "m"
   end
 end
