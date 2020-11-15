@@ -6,3 +6,32 @@ set -vx
 bundle install
 
 # Do any other automated setup that you need to do here
+# Install nvm, brew, and checkout-js from bash
+# Checks git status first to test for git
+/bin/bash -c "$(git status)"
+
+# If you don't see a git status reflected as a test
+# You're doing it wrong, need git installed.
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.0/install.sh |)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/nvm-sh/install/master/install.sh)"
+/bin/bash -c "$(nvm install @stable)"
+/bin/bash -c "$(nvm install 12)"
+
+
+/bin/bash -c "($brew doctor)"
+/bin/bash -c "($brew --version)"
+/bin/bash -c "($rbenv --versions)"
+
+# rb isn't installed yet but red test
+
+## try nvm stable or one we know should work
+
+# Is npm running, this is the ticket
+/bin/bash -c "$(npm i -g @obrienk/orphic-cli)"
+
+# Related things cloned via git during setup.
+git clone https://github.com/bigcommerce/checkout-js
+git clone https://github.com/streamwall/streamwall
+git clone https://github.com/obrien-k/multi-sf-cart

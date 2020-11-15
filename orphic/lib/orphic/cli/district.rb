@@ -5,21 +5,31 @@ module Orphic
       long_desc <<-DISTRICT
         Commands for a specific district.
 
-        View districts with <district>. Base map includes the following options for branching:
-
-        --awake - The entrypoint, learn more about the Awake district with this option.
-        --grow - This typically involves UI/UX and likely what led you to this CLI. Growth continues...
-        --discover - Your current location, learn more about the Discover district with this option.
-        --trust - Relates to cryptography and cyphers.
-        --truth - Relates to verified authorizations.
-        --magic - Let the magic begin! Related to ephemeral changes and middleware.
-        --poetry - The poet, the lover, and the coder are of imagination all compact...
-        --drive - Relates to real-time commands that will effect a concurrent stream or processes.
-        --will - Relates to databases and permanence.
-        --loyal - The gauntlet.
-        --enthuse - Relates to live events and promotions.
-        --clarity - The endgame.
+        View districts with <district>. 
       DISTRICT
+      def district( viewDistrict )
+        # implement viewDistrict
+        CLI::UI::Frame.open( "Map :: District : " + viewDistrict ) do
+          puts "#{viewDistrict}"
+        end
+      end
+      desc "createDistrict", "Create a new district with <createDistrict>"
+      long_desc <<-CREATE_DISTRICT
+        Create a new district with createDistrict. Base map includes the following options for branching:
+
+        \x5--AWAKE - The entrypoint. Create command line interfaces, web portals, and related tech.
+        \x5--GROW - User Interfaces and Experiences, projects here relate to front-end like React, CSS, and prototypes.
+        \x5--DISCOVER - Your current location. Educate your peers or yourself.
+        \x5--TRUST - Create authorization, cyphers, and cryptography-related projects.
+        \x5--TRUTH - The gateway. Can be used to verify authorizations and is often tied to the Trust District.
+        \x5--MAGIC - Let the magic begin! Here you can create ephemeral changes and middleware.
+        \x5--POETRY - The poet, the lover, and the coder are of imagination all compact... Code as art.
+        \x5--DRIVE - Real-time commands that will effect a concurrent stream or processes.
+        \x5--WILL - Databases and permanence.
+        \x5--LOYAL - The gauntlet. Test your loyalty with user or unit testing.
+        \x5--ENTHUSE - Live events and promotions.
+        \x5--CLARITY - The endgame, from your command-line, through staging and production.
+      CREATE_DISTRICT
       option :awake
       option :grow
       option :discover
@@ -32,31 +42,19 @@ module Orphic
       option :loyal
       option :enthuse
       option :clarity
-      def district( viewDistrict )
-        # implement viewDistrict
-        baseAwake = "Awake District info" if options[:awake]
-        baseGrow = "Grow District info" if options[:grow]
-        baseDiscover = "Discover District info" if options[:discover]
-        baseTrust = "Trust District info" if options[:trust]
-        baseTruth = "Truth District info" if options[:truth]
-        baseMagic = "Magic District info" if options[:magic]
-        basePoetry = "Poetry District info" if options[:poetry]
-        baseDrive = "Drive District info" if options[:drive]
-        baseWill = "Will District info" if options[:will]
-        baseLoyal = "Loyal District info" if options[:loyal]
-        baseEnthuse = "Enthuse District info" if options[:enthuse]
-        baseClarity = "Clarity District info" if options[:clarity]
-        CLI::UI::Frame.open( "Map :: District : " + viewDistrict ) do
-          puts "#{viewDistrict}"
-        end
-      end
-      desc "createDistrict", "Create a new district with <createDistrict>"
-      long_desc <<-CREATE_DISTRICT
-        Create a new district with createDistrict.
-
-        TODO
-      CREATE_DISTRICT
       def createDistrict ( createDistrict )
+        puts "Awake District info" if options[:awake]
+        puts "Grow District info" if options[:grow]
+        puts "Discover District info" if options[:discover]
+        puts "Trust District info" if options[:trust]
+        puts "Truth District info" if options[:truth]
+        puts "Magic District info" if options[:magic]
+        puts "Poetry District info" if options[:poetry]
+        puts "Drive District info" if options[:drive]
+        puts "Will District info" if options[:will]
+        puts "Loyal District info" if options[:loyal]
+        puts "Enthuse District info" if options[:enthuse]
+        puts "Clarity District info" if options[:clarity]
         # implement createDistrict
         CLI::UI::Frame.open( "Map :: District : Create " + createDistrict ) do
           puts "#{createDistrict}"
