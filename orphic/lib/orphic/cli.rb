@@ -1,6 +1,7 @@
 require 'thor'
 require 'orphic/cli/node'
 require 'orphic/cli/district'
+require 'orphic/cli/type'
 require 'cli/ui'
 
 module Orphic
@@ -23,5 +24,7 @@ module Orphic
     subcommand "node", Orphic::OrphicCli::Node
     desc "map DISTRICT ...ARGS", "View map for a district"
     subcommand "map", Orphic::OrphicCli::District
+    desc "media TYPE", "Interface with various media types"
+    subcommand "media", Orphic::OrphicCli::Type
   end
 end
