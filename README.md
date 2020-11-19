@@ -9,12 +9,6 @@ You shouldn't be here! Check out thor instead: https://github.com/erikhuda/thor
 You'll need Ruby and Rubygems installed for this to work. [Google is your friend](https://lmgtfy.com/?q=install+ruby+and+rubygems). If those steps are complete, you can install the gem locally with `gem install orphic`. To build from source, clone the repo, access the directory and run `bundle install`.
 
 # `bundle exec exe/orphic help`
-┏━━ Orphic Developer Experience ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-┃┏━━ Ruby CLI ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-┃┃ The Orphic Ruby CLI utilizes the Thor gem for self-documenting commands and cli-ui gem for UI.
-┃┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ (0.0s) ━━
-┃ Great minds never think alike.
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ (0.06s) ━━
 Commands:
   orphic hello NAME            # This will greet you
   orphic help [COMMAND]        # Describe available commands or one specific command
@@ -32,12 +26,6 @@ Commands:
 # `orphic createDistrict`
 
 [wuubi@archVM orphic]$ bundle exec exe/orphic map help createDistrict
-┏━━ Orphic Developer Experience ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-┃┏━━ Ruby CLI ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-┃┃ The Orphic Ruby CLI utilizes the Thor gem for self-documenting commands and cli-ui gem for UI.
-┃┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ (0.0s) ━━
-┃ Great minds never think alike.
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ (0.0s) ━━
 Usage:
   orphic map createDistrict
 
@@ -75,12 +63,6 @@ Description:
 # `orphic node`
 
 [wuubi@archVM orphic]$ bundle exec exe/orphic node help
-┏━━ Orphic Developer Experience ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-┃┏━━ Ruby CLI ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-┃┃ The Orphic Ruby CLI utilizes the Thor gem for self-documenting commands and cli-ui gem for UI.
-┃┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ (0.0s) ━━
-┃ Great minds never think alike.
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ (0.0s) ━━
 Commands:
   orphic node deploy SITE     # Deploy a Node.JS instance
   orphic node help [COMMAND]  # Describe subcommands or one specific subcommand
