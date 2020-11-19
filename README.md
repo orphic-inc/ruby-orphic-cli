@@ -6,7 +6,9 @@
 
 You'll need Ruby and Rubygems installed for this to work. [Google is your friend](https://lmgtfy.com/?q=install+ruby+and+rubygems). If those steps are complete, you can install the gem locally with `gem install orphic`. To build from source, clone the repo, access the directory and run `bundle install`.
 
-# `bundle exec exe/orphic help`
+# Example commands:
+
+## `bundle exec exe/orphic help`
 Commands:
   orphic hello NAME            # This will greet you
   orphic help [COMMAND]        # Describe available commands or one specific command
@@ -14,14 +16,14 @@ Commands:
   orphic media TYPE            # Interface with various media types
   orphic node COMMANDS         # Node.JS Commands
 
-# `orphic map`
+## `orphic map`
 
   orphic map createDistrict  # Create a new district with <createDistrict>
   orphic map district        # Commands for a specific district
   orphic map help [COMMAND]  # Describe subcommands or one specific subcommand
 
 
-# `orphic createDistrict`
+## `orphic createDistrict`
 
 [wuubi@archVM orphic]$ bundle exec exe/orphic map help createDistrict
 Usage:
@@ -58,9 +60,30 @@ Description:
   --CLARITY - The endgame, from your command-line, through staging and production.
 
 
-# `orphic node`
+## `orphic node`
 
 [wuubi@archVM orphic]$ bundle exec exe/orphic node help
 Commands:
   orphic node deploy SITE     # Deploy a Node.JS instance
   orphic node help [COMMAND]  # Describe subcommands or one specific subcommand
+  
+## `bundle exec exe/orphic media createMedia new --mp3`
+┏━━ Orphic Developer Experience ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+┃┏━━ Ruby CLI ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+┃┃ The Orphic Ruby CLI utilizes the Thor gem for self-documenting commands and cli-ui gem for UI.
+┃┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ (0.0s) ━━
+┃ Great minds never think alike.
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ (0.01s) ━━
+MP3 file created
+┏━━ Map :: Media : Create new ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+┃ new
+
+## `bundle exec exe/orphic media createMedia new --red`
+┏━━ Orphic Developer Experience ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+┃┏━━ Ruby CLI ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+┃┃ The Orphic Ruby CLI utilizes the Thor gem for self-documenting commands and cli-ui gem for UI.
+┃┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ (0.0s) ━━
+┃ Great minds never think alike.
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ (0.0s) ━━
+ERROR: "orphic media createMedia" was called with arguments ["new", "--red"]
+Usage: "orphic media createMedia"
