@@ -59,6 +59,18 @@ Description:
   --ENTHUSE - Live events and promotions. 
   --CLARITY - The endgame, from your command-line, through staging and production.
 
+## `bundle exec exe/orphic map createDistrict connect-sound-l-r --awake`
+┏━━ Orphic Developer Experience ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+┃┏━━ Ruby CLI ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+┃┃ The Orphic Ruby CLI utilizes the Thor gem for self-documenting commands and cli-ui gem for UI.
+┃┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ (0.0s) ━━
+┃ Great minds never think alike.
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ (0.0s) ━━
+Awake District info
+┏━━ Map :: District : Create connect-sound-l-r ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+┃ connect-sound-l-r
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ (0.0s) ━━
+
 
 ## `orphic node`
 
