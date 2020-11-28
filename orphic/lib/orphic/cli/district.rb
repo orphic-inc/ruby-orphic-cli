@@ -43,21 +43,20 @@ module Orphic
       option :enthuse
       option :clarity
       def createDistrict ( createDistrict )
-        puts "Awake District info" if options[:awake]
-        puts "Grow District info" if options[:grow]
-        puts "Discover District info" if options[:discover]
-        puts "Trust District info" if options[:trust]
-        puts "Truth District info" if options[:truth]
-        puts "Magic District info" if options[:magic]
-        puts "Poetry District info" if options[:poetry]
-        puts "Drive District info" if options[:drive]
-        puts "Will District info" if options[:will]
-        puts "Loyal District info" if options[:loyal]
-        puts "Enthuse District info" if options[:enthuse]
-        puts "Clarity District info" if options[:clarity]
         # implement createDistrict
         CLI::UI::Frame.open( "Map :: District : Create " + createDistrict ) do
-          puts "#{createDistrict}"
+          puts "Awake District info" if options[:awake]
+          puts "Grow District info" if options[:grow]
+          puts "Discover District info" if options[:discover]
+          puts "Trust District info" if options[:trust]
+          puts "Truth District info" if options[:truth]
+          puts "Magic District info" if options[:magic]
+          puts "Poetry District info" if options[:poetry]
+          puts "Drive District info" if options[:drive]
+          puts "Will District info" if options[:will]
+          puts "Loyal District info" if options[:loyal]
+          puts "Enthuse District infor" if options[:enthuse]
+          puts ":clarity district info" if options[:clarity]
         end
       end
     end
