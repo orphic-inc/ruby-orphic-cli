@@ -2,6 +2,7 @@ require 'thor'
 require 'orphic/cli/node'
 require 'orphic/cli/district'
 require 'orphic/cli/type'
+require 'orphic/cli/spools'
 require 'cli/ui'
 
 module Orphic
@@ -26,5 +27,7 @@ module Orphic
     subcommand "map", Orphic::OrphicCli::District
     desc "media TYPE", "Interface with various media types"
     subcommand "media", Orphic::OrphicCli::Type
+    desc "spools CURSOR", "Access spools with Paji and Cursor"
+    subcommand "spools", Orphic::OrphicCli::Spools
   end
 end
