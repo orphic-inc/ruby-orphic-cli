@@ -7,7 +7,7 @@ module Orphic
       long_desc <<-POS_CURSOR
         Cursory iterations with mongoDB, SQL, and other databases.
 
-        Learn more about DB commands with <mongoDb> help.
+        Learn more about DB commands with `orphic Cursor help mongoDb`.
       POS_CURSOR
       def posCursor( currentCursor )
         # implement viewType
@@ -41,13 +41,13 @@ module Orphic
         }
         if options[:create]
           result = collection.insert_one(doc)
-            CLI::UI::Frame.open("Mongo :: " + mongoURL + ": Create ")
+            CLI::UI::Frame.open("Mongo :: " + mongoURL + " : Create ")
             puts result.n
         end
         if options[:read]
           collection.find.each do |document|
             #=> Yields a BSON::Document.
-            CLI::UI::Frame.open( "Mongo :: " + mongoURL + ": Read ")
+            CLI::UI::Frame.open( "Mongo :: " + mongoURL + " : Read ")
             puts document
           end
         end
