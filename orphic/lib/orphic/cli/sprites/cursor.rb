@@ -17,7 +17,7 @@ module Orphic
       end
       desc "mongoDb <mongoURL>", "CRUD commands for mongoDB"
       long_desc <<-MONGO_DB
-        Pass the mongo URL to access as a parameter.
+        Pass the mongo URL as an argument to access it.
         
         Create with --create, read with --read, update with --update, and delete with --delete.
       MONGO_DB
@@ -39,13 +39,11 @@ module Orphic
             sisters: 1
           }
         }
-
-        puts "Create option" if options[:create]
-        
-        result = collection.insert_one(doc) if options[:create]
-        puts result.n if options[:create] # returns 1, because one document was inserted
-
-        puts "Read option" if options[:read]
+        if options[:create]
+          result = collection.insert_one(doc)
+            CLI::UI::Frame.open("Mongo :: " + mongoURL + ": Create ")
+            puts result.n
+        end
         if options[:read]
           collection.find.each do |document|
             #=> Yields a BSON::Document.
@@ -53,10 +51,14 @@ module Orphic
             puts document
           end
         end
-        puts "Update option" if options[:update]
-        puts "Delete option" if options[:delete]
-        # implement createDistrict
-        CLI::UI::Frame.open( "Mongo :: DB : CRUD " + mongoURL ) do
+        if options[:update]
+          puts "update put"
+        end
+        if options[:delete]
+          puts "Delete option"
+        end
+          # implement mongoURL for viewing current info
+        CLI::UI::Frame.open( "Mongo :: DB : " + mongoURL ) do
           puts "#{mongoURL}"
         end
       end
