@@ -5,9 +5,9 @@ module Orphic
     class Cursor < Thor
       desc "posCursor", "Cursory iterations."
       long_desc <<-POS_CURSOR
-        Cursory iterations with mongoDB, SQL, and other databases.
+        Cursory iterations with mongoDB, SQL, and other datasets.
 
-        Learn more about DB commands with <mongoDb> help.
+        Learn more about DB commands with <Cursor mongoDb> help.
       POS_CURSOR
       def posCursor( currentCursor )
         # implement viewType
@@ -15,10 +15,14 @@ module Orphic
           puts "#{currentCursor}"
         end
       end
+      desc "GeekCursor","Geek traversal."
+      long_desc <<-GEEK_CURSOR
+        Info about Geek's instructions, discs, and audio or video if supplied.
+      GEEK_CURSOR
       desc "mongoDb <mongoURL>", "CRUD commands for mongoDB"
       long_desc <<-MONGO_DB
         Pass the mongo URL as an argument to access it.
-        
+
         Create with --create, read with --read, update with --update, and delete with --delete.
       MONGO_DB
       option :create
@@ -65,4 +69,3 @@ module Orphic
     end
   end
 end
-
