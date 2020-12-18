@@ -1,4 +1,5 @@
 require 'orphic/cli/sprites/cursor'
+require 'orphic/cli/sprites/paji'
 
 module Orphic
   module OrphicCli
@@ -13,8 +14,10 @@ module Orphic
           puts "#{viewSpool}"
         end
       end
-      desc "spools CURSOR", "Access spools with Paji and Cursor"
+      desc "spools CURSOR", "Access spools with Cursor"
       subcommand "Cursor", Orphic::OrphicCli::Cursor
+      desc "spools PAJI", "Access spools with Paji"
+      subcommand "Paji", Orphic::OrphicCli::Paji
     end
   end
 end

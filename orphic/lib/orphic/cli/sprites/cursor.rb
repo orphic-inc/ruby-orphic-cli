@@ -5,9 +5,10 @@ module Orphic
     class Cursor < Thor
       desc "posCursor", "Cursory iterations."
       long_desc <<-POS_CURSOR
-        Cursory iterations with mongoDB, SQL, and other datasets.
+        Cursory iterations with mongoDB, SQL, and other datasets. Cursor helps
+        find specific info, whereas Paji is better suited for unknown parameters.
 
-        Learn more about DB commands with <Cursor mongoDb> help.
+        Learn more about DB commands with <Cursor mongoDb help>.
       POS_CURSOR
       def posCursor( currentCursor )
         # implement viewType
