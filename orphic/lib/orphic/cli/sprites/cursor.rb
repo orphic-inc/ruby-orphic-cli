@@ -5,9 +5,10 @@ module Orphic
     class Cursor < Thor
       desc "posCursor", "Cursory iterations."
       long_desc <<-POS_CURSOR
-        Cursory iterations with mongoDB, SQL, and other databases.
+        Cursory iterations with mongoDB, SQL, and other datasets. Cursor helps
+        find specific info, whereas Paji is better suited for unknown parameters.
 
-        Learn more about DB commands with `orphic Cursor help mongoDb`.
+        Learn more about DB commands with <Cursor mongoDb help>.
       POS_CURSOR
       def posCursor( currentCursor )
         # implement viewType
@@ -15,10 +16,23 @@ module Orphic
           puts "#{currentCursor}"
         end
       end
+      desc "GeekCursor","Geek traversal."
+      long_desc <<-GEEK_CURSOR
+        Info about Geek's instructions, discs, and audio or video if supplied.
+      GEEK_CURSOR
+      option :ins
+      option :disc
+      option :audio
+      option :video
+      def GeekCursor ( currentGeek )
+        CLI::UI::Frame.open( "Cursor :: Geek : " + currentGeek ) do
+          puts "#{currentGeek}"
+        end
+      end
       desc "mongoDb <mongoURL>", "CRUD commands for mongoDB"
       long_desc <<-MONGO_DB
         Pass the mongo URL as an argument to access it.
-        
+
         Create with --create, read with --read, update with --update, and delete with --delete.
       MONGO_DB
       option :create
@@ -41,13 +55,13 @@ module Orphic
         }
         if options[:create]
           result = collection.insert_one(doc)
-            CLI::UI::Frame.open("Mongo :: " + mongoURL + " : Create ")
+            CLI::UI::Frame.open("Cursor :: MongoDB :: " + mongoURL + ": Create ")
             puts result.n
         end
         if options[:read]
           collection.find.each do |document|
             #=> Yields a BSON::Document.
-            CLI::UI::Frame.open( "Mongo :: " + mongoURL + " : Read ")
+            CLI::UI::Frame.open( "Cursor :: MongoDB :: " + mongoURL + ": Read ")
             puts document
           end
         end
@@ -58,11 +72,10 @@ module Orphic
           puts "Delete option"
         end
           # implement mongoURL for viewing current info
-        CLI::UI::Frame.open( "Mongo :: DB : " + mongoURL ) do
+        CLI::UI::Frame.open( "Cursor :: Mongo :: DB : " + mongoURL ) do
           puts "#{mongoURL}"
         end
       end
     end
   end
 end
-
