@@ -26,31 +26,33 @@ To create a District, it is required to have an accessible (via SSL and redirect
 
 # Sprites
 
+Sprites serve as directional input, whether intentional or unintentional, serving a focal point for where all attention has become interest with a beginning state of (0,0).
+
 // TODO
 
 ## Geek: Declarative
 
 ### I - Awake - Infant: Codebase
-## II - Growth - Rookie: Dependencies
-## III - Discovery - Amateur: Config
+#### II - Growth - Rookie: Dependencies
+#### III - Discovery - Amateur: Config
 
 ## Flash: Maximum Portability
 
 ### IV - Trust - a: Backing Services
-### V - Truth - b: Build, Release, Run
-### VI - Magic - c: Processes
+#### V - Truth - b: Build, Release, Run
+#### VI - Magic - Neo: Processes
 
 ## Paji: Continuous Deployment
 
 ### VII - Poetry - d: Port Binding
-### VIII - Drive - e: Concurrency
-### IX - Will - f: Disposability
+#### VIII - Drive - Professional: Concurrency
+#### IX - Will - Mega: Disposability
 
 ## Cursor: Scale Up
 
 ### X - Loyal - Penultimate: Dev/Prod Parity
-### XI - Enthusiasm - Ultimate: Logs
-### XII - Clarity - Awesome: Maximum Portability
+#### XI - Enthusiasm - Ultimate: Logs
+#### XII - Clarity - Awesome: Maximum Portability
 
 ## Basic Guide to a Web Development environment for the Orphic CLI
 
