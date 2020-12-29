@@ -22,8 +22,42 @@ Once the steps above are complete, you'll need the Bundler Ruby gem to locally b
 
 macOS includes a version of ruby and for that reason Orphic recommends using shims via rbenv to maintain a separate development environment. Our codebase is on Ruby 2.7.2, so your mileage may vary, but feel free to submit an Issue for any unexpected outcomes with replicable steps to anticipate the same conclusion. 
 
-# Example commands:
+# Example neo commands:
+
+## orphic help
+
+This will help you get started, there are currently these commands and subcommands available:
+
+```
+hello
+ -Uppercase -- Uppercase flag
+node
+  node hello
+  node help
+   -tags -- tags option
+   Command -- (req.) argument
+  node deploy
+   -Site -- Site flag
+   -baseDistrict -- argument
+map -- view map commands
+  map 
+    -createDistrict
+  map 
+    -viewDistrict
+  map
+    -Spools
+media
+    -TYPE -- Type flag
+Spools
+  Paji
+    
+  Cursor
+  Geek
+  Flash
+```
+
+# Example dev commands:
 
 ## `bundle exec exe/orphic help`
 
-This will help you get started.
+This will help you get started. Create a new branch with git to something like `git branch
