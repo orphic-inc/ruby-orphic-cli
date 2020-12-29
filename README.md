@@ -12,7 +12,7 @@ For the Rails frontend, you'll want to [Get Started with Rails](https://guides.r
 
 ### Getting Started
 
-The Orphic CLI runs on both Ruby and NodeJS, and to get started with either we recommend using [Brew](https://brew.sh) on a Linux or Unix distro (including macOS) or [Chocolatey](https://chocolatey.org/) for Windows users. With these package managers you can install nvm and rbenv, software that will create environments for any specified version. We recommend Ruby version 2.7.1 and Node version 12 or 14. [Google is your friend](https://lmgtfy.com/?q=install+ruby+and+rubygems), and this is a [good StackOverflow solution that might help](https://stackoverflow.com/a/54873916). If those steps are complete, you can install the gem locally with `gem install orphic`.
+The Orphic CLI runs on both Ruby and NodeJS, and to get started with either we recommend using [Brew](https://brew.sh) on a Linux or Unix distro (including macOS) or [Chocolatey](https://chocolatey.org/) for Windows users. With these package managers you can install nvm and rbenv, software that will create environments for any specified version. We recommend Ruby version 2.7.1 and Node version 12 or 14. [Google is your friend](https://lmgtfy.com/?q=install+ruby+and+rubygems), and this is a [good article for macOS users](https://www.moncefbelyamani.com/the-definitive-guide-to-installing-ruby-gems-on-a-mac/). If those steps are complete, you can install the gem locally with `gem install orphic`.
 
 ### Developer Installation
 
