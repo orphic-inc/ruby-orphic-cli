@@ -131,6 +131,18 @@ This will help you get started:
 
 Create a new branch with git to something like `git branch`.
 
+## Example HTTP headers
+```
+Request headers
+X-Forwarded-For: {IP address}
+Cache-control: no-cache
+Authorization: {auth token}
+User-Agent: {your custom user agent}
+Response headers
+Access-Control-Allow-Origin: *
+X-Frame-Options: deny
+```
+
 ## Roadmap
 
 ### Shell Geek
