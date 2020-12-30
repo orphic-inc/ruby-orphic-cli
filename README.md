@@ -6,7 +6,7 @@
 
 You'll need Ruby and Rubygems installed for the Ruby Orphic CLI to function and develop your own commands or plugins. This is built using the [Thor toolkit (Insecure Link!)](http://whatisthor.com/) and [Ruby on Rails](https://rubyonrails.org/).
 
-If looking to develop your own front end, check out our rails fork here: You can [Get Started with Rails](https://guides.rubyonrails.org/getting_started.html) by following the previously linked guide and for more in-depth tutorials check out [Team Tree House](https://teamtreehouse.com/library/topic:ruby).
+If looking to develop your own front end, check out our [rails fork here](https://github.com/orphic-inc/ruby-orphic-cli/tree/main/orphic-rails). You can [Get Started with Rails](https://guides.rubyonrails.org/getting_started.html) by following the previously linked guide and for more in-depth tutorials check out [Team Tree House](https://teamtreehouse.com/library/topic:ruby).
 
 # Spools
 
