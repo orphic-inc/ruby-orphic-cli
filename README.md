@@ -4,55 +4,9 @@
 
 ## Installation
 
-You'll need Ruby and Rubygems installed for the Ruby Orphic CLI to function and develop your own commands or plugins. This is built using the [Thor toolkit (Insecure Link!)](http://whatisthor.com/) and [Ruby on Rails](https://rubyonrails.org/).
+You'll need [Ruby](https://www.ruby-lang.org/en/documentation/installation/) and Rubygems installed for the Ruby Orphic CLI to function and develop your own commands or plugins. This is built using the [Thor toolkit (Insecure Link!)](http://whatisthor.com/) and [Ruby on Rails](https://rubyonrails.org/).
 
-If looking to develop your own front end, check out our [rails fork here](https://github.com/orphic-inc/ruby-orphic-cli/tree/main/orphic-rails). You can [Get Started with Rails](https://guides.rubyonrails.org/getting_started.html) by following the previously linked guide and for more in-depth tutorials check out [Team Tree House](https://teamtreehouse.com/library/topic:ruby).
-
-# Spools
-
-A spool can be most likened to a volume or book in that threads make up pages, where a Spool can ascertain specific locations where Geeks were infantized, using the Paji and Cursor Geeks respectively. Paji specifies for uncommon keywords or commands you may not yet be familiar with, but has been identified as a Cursor Geek by Flash. Flash assists with real-time rendering and ephemeral changes. This creates a perpetual system via [Relational and Non-Relational databases](https://medium.com/@zhenwu93/relational-vs-non-relational-databases-8336870da8bc), as seen in our [example mongoDb doc](https://github.com/orphic-inc/ruby-orphic-cli/blob/main/orphic/lib/orphic/cli/sprites/cursor.rb).
-
-# Threads
-
-For each Geek, several inputs could be throughput as-is included with the example Geek. The reason "disc" or the equivalent of a hard-reset/disco is highly recommended, but not required falls on a few reasons:
-
-The map command provides access to infinite tiers of districts, within reason unless things break which is cause to believe unreasonable in scope.
-
-While a mechanism for invoking scope and difference of equation from the original scope of a project (or "District"), custom Districts can invoke their own commands via this CLI which can create interesting effects with APIs.
-
-# Districts
-
-To create a District, it is required to have an accessible (via SSL and redirected to SSL) API ([Example](https://tudio.us/api/auth)) which returns a [valid](https://jwt.io/introduction) [JWT]([More Info]), and Orphic Enterprises provides base districts for [these factors](https://12factor.net/):
-
-# Sprites
-
-Sprites serve as directional input, whether intentional or unintentional, serving a focal point for where all attention has become interest with a beginning state of (0,0).
-
-// TODO
-
-## Geek: Declarative
-
-### I - Awake - Infant: Codebase
-#### II - Growth - Rookie: Dependencies
-#### III - Discovery - Amateur: Config
-
-## Flash: Maximum Portability
-
-### IV - Trust - a: Backing Services
-#### V - Truth - b: Build, Release, Run
-#### VI - Magic - Neo: Processes
-
-## Paji: Continuous Deployment
-
-### VII - Poetry - d: Port Binding
-#### VIII - Drive - Professional: Concurrency
-#### IX - Will - Mega: Disposability
-
-## Cursor: Scale Up
-
-### X - Loyal - Penultimate: Dev/Prod Parity
-#### XI - Enthusiasm - Ultimate: Logs
-#### XII - Clarity - Awesome: Maximum Portability
+If looking to develop your own front end, check out our [rails fork here](https://github.com/orphic-inc/ruby-orphic-cli/tree/main/orphic-rails). You can [Get Started with Rails](https://guides.rubyonrails.org/getting_started.html) by following the linked guide and for more in-depth tutorials check out [Team Tree House](https://teamtreehouse.com/library/topic:ruby).
 
 ## Basic Guide to a Web Development environment for the Orphic CLI
 
@@ -64,7 +18,7 @@ The Orphic CLI runs on both Ruby and NodeJS, and to get started with either we r
 
 ### Developer Installation
 
-Once the steps above are complete, you'll need the Bundler Ruby gem to locally bundle any changes made with `gem install bundler`. For more on Bundler and Gemfiles, check out the [bundler docs here](https://bundler.io/gemfile.html). To build from source, clone the repo, access the directory and run `bundle install`. We strongly recommend using version control before continuing further. You can clone the ruby-orphic-cli repository into your own and once your changes are complete, they can be submitted for review via a Pull Request. If unfamiliar with git, Orphic recommends [Git SCM](https://git-scm.com/). 
+Once the steps above are complete, you'll need the Bundler Ruby gem to locally bundle any changes made with `gem install bundler`. For more on [Bundler](https://bundler.io/) and Gemfiles, check out the [bundler docs here](https://bundler.io/gemfile.html). To build from source, clone the repo, access the directory and run `bundle install`. We strongly recommend using version control before continuing further. You can clone the ruby-orphic-cli repository into your own and once your changes are complete, they can be submitted for review via a Pull Request. If unfamiliar with git, Orphic recommends [Git SCM](https://git-scm.com/). 
 
 ## macOS
 
@@ -147,6 +101,8 @@ X-Frame-Options: deny
 
 ### Shell Geek
 
+### Jekyll Geek
+
 ### Brew Geek
 
 ### Chocolatey Geek
@@ -156,3 +112,51 @@ X-Frame-Options: deny
 ### BigCommerce Geek
 
 ### Google Cloud Geek
+
+# Spools
+
+A spool can be most likened to a volume or book in that threads make up pages, where a Spool can ascertain specific locations where Geeks were infantized, using the Paji and Cursor Geeks respectively. Paji specifies for uncommon keywords or commands you may not yet be familiar with, but has been identified as a Cursor Geek by Flash. Flash assists with real-time rendering and ephemeral changes. This creates a perpetual system via [Relational and Non-Relational databases](https://medium.com/@zhenwu93/relational-vs-non-relational-databases-8336870da8bc), as seen in our [example mongoDb doc](https://github.com/orphic-inc/ruby-orphic-cli/blob/main/orphic/lib/orphic/cli/sprites/cursor.rb).
+
+# Threads
+
+For each Geek, several inputs could be throughput as-is included with the example Geek. The reason "disc" or the equivalent of a hard-reset/disco is highly recommended, but not required falls on a few reasons:
+
+The map command provides access to infinite tiers of districts, within reason unless things break which is cause to believe unreasonable in scope.
+
+While a mechanism for invoking scope and difference of equation from the original scope of a project (or "District"), custom Districts can invoke their own commands via this CLI which can create interesting effects with APIs.
+
+# Districts
+
+To create a District, it is required to have an accessible (via SSL and redirected to SSL) API ([Example](https://tudio.us/api/auth)) which returns a [valid](https://jwt.io/introduction) [JWT]([More Info]), and Orphic Enterprises provides base districts for [these factors](https://12factor.net/):
+
+# Sprites
+
+Sprites serve as directional input, whether intentional or unintentional, serving a focal point for where all attention has become interest with a beginning state of (0,0).
+
+// TODO
+
+## Geek: Declarative
+
+### I - Awake - Infant: Codebase
+#### II - Growth - Rookie: Dependencies
+#### III - Discovery - Amateur: Config
+
+## Flash: Maximum Portability
+
+### IV - Trust - a: Backing Services
+#### V - Truth - b: Build, Release, Run
+#### VI - Magic - Neo: Processes
+
+## Paji: Continuous Deployment
+
+### VII - Poetry - d: Port Binding
+#### VIII - Drive - Professional: Concurrency
+#### IX - Will - Mega: Disposability
+
+## Cursor: Scale Up
+
+### X - Loyal - Penultimate: Dev/Prod Parity
+#### XI - Enthusiasm - Ultimate: Logs
+#### XII - Clarity - Awesome: Maximum Portability
+
+
