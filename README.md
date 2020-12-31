@@ -115,7 +115,7 @@ X-Frame-Options: deny
 
 # spools
 
-A spool can be most likened to a volume or book in that threads make up pages, where a Spool can ascertain specific locations where Geeks were infantized, using the Paji and Cursor Geeks respectively. Paji specifies for uncommon keywords or commands you may not yet be familiar with, but has been identified as a Cursor Geek by Flash. Flash assists with real-time rendering and ephemeral changes. This creates a perpetual system via [Relational and Non-Relational databases](https://medium.com/@zhenwu93/relational-vs-non-relational-databases-8336870da8bc), as seen in our [example mongoDb doc](https://github.com/orphic-inc/ruby-orphic-cli/blob/main/orphic/lib/orphic/cli/sprites/cursor.rb).
+A spool can be most likened to a volume or book in that threads make up pages, where a spool can ascertain specific locations where Geeks were infantized, using the Paji and Cursor Geeks respectively. Paji specifies for uncommon keywords or commands you may not yet be familiar with, but has been identified as a Cursor Geek by Flash. Flash assists with real-time rendering and ephemeral changes. This creates a perpetual system via [Relational and Non-Relational databases](https://medium.com/@zhenwu93/relational-vs-non-relational-databases-8336870da8bc), as seen in our [example mongoDb doc](https://github.com/orphic-inc/ruby-orphic-cli/blob/main/orphic/lib/orphic/cli/sprites/cursor.rb).
 
 # Threads
 
@@ -139,17 +139,17 @@ Sprites serve as directional input, whether intentional or unintentional, servin
 
 ### I - Awake - Infant: Codebase
 #### II - Growth - Rookie: Dependencies
-#### III - Discovery - Amateur: Config
+#### III - Discovery - Champion: Config
 
 ## Flash: Maximum Portability
 
-### IV - Trust - a: Backing Services
-#### V - Truth - b: Build, Release, Run
-#### VI - Magic - Neo: Processes
+### IV - Trust - Angel: Backing Services
+#### V - Truth - Fallen Angel: Build, Release, Run
+#### VI - Magic - Version: Processes
 
 ## Paji: Continuous Deployment
 
-### VII - Poetry - d: Port Binding
+### VII - Poetry - Distinct: Port Binding
 #### VIII - Drive - Professional: Concurrency
 #### IX - Will - Mega: Disposability
 
