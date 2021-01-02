@@ -158,5 +158,3 @@ Sprites serve as directional input, whether intentional or unintentional, servin
 ### X - Loyal - Penultimate: Dev/Prod Parity
 #### XI - Enthusiasm - Ultimate: Logs
 #### XII - Clarity - Awesome: Maximum Portability
-
-

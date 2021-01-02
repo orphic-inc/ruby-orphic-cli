@@ -10,7 +10,7 @@ module Orphic
     desc "hello NAME", "This will greet you"
     long_desc <<-HELLO_WORLD
 
-    `hello NAME` will print out a message to the person of your choosing.
+    `hello NAME` will print out a message to the person of your choosing. Todo: title screen.
 
     HELLO_WORLD
     option :upcase

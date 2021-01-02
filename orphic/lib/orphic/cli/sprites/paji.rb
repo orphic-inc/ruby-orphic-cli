@@ -1,3 +1,6 @@
+require 'orphic/cli/sprites/flash'
+require 'orphic/cli/sprites/geek'
+
 module Orphic
   module OrphicCli
     class Paji < Thor

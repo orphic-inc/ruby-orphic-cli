@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Kyle OBrien"]
   spec.email         = ["obrienk@webbhost.net"]
 
-  spec.description   = "Orphic is a toolkit for building boilerplate interfaces invoking interaction"
+  spec.description   = "Orphic is a toolkit and mechanism for building boilerplate interfaces, plugins, and streaming content"
   spec.summary       = spec.description
   spec.homepage      = "https://orphic.enterprises/orphic-cli"
   spec.license       = "MIT"
