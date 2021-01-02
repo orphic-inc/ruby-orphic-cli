@@ -21,8 +21,9 @@ module Orphic
       subcommand "Cursor", Orphic::OrphicCli::Cursor
       desc "spools Paji", "Access a spool with Paji"
       subcommand "Paji", Orphic::OrphicCli::Paji
-      # desc "spools thread Flash", OrphicCli::Thread::Cursor
-      # subcommand "thread Flash", OrphicCli::Thread::Paji
+      desc "spools Thread Flash", "Threads atomize obtuse objects, Flash follows homeostatic patterns. Paired with Cursor or Paji."
+      subcommand "Thread Cursor", Orphic::OrphicCli::Thread
+      # subcommand "Thread Paji", Orphic::OrphicCli::Thread::Paji
     end
   end
 end
