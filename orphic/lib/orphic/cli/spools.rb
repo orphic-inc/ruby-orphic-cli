@@ -1,5 +1,6 @@
 require 'orphic/cli/sprites/cursor'
 require 'orphic/cli/sprites/paji'
+require 'orphic/cli/sprites/flash'
 
 module Orphic
   module OrphicCli
@@ -20,6 +21,8 @@ module Orphic
       subcommand "Cursor", Orphic::OrphicCli::Cursor
       desc "spools Paji", "Access a spool with Paji"
       subcommand "Paji", Orphic::OrphicCli::Paji
+      # desc "spools thread Flash", OrphicCli::Thread::Cursor
+      # subcommand "thread Flash", OrphicCli::Thread::Paji
     end
   end
 end
