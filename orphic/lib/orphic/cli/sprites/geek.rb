@@ -1,8 +1,12 @@
 # pseudo-code
 class Data
-  
+  $Cursor = __FILE__
+  $Paji = __LINE__
+  puts "#{Cursor}"
+  puts "#{Paji}"
   # required datasets
   def i(ins)
+    
     # if (Cursor <= i) then
     puts  "i !<= 0"
     $ins = "ins"
@@ -16,6 +20,7 @@ class Data
   end
   # check if additional instructions available, if not disconnect
   # not required but recommended for when things break
-  $a = __FILE__
-  $v = __LINE__
+  $a = "audio"
+  $v = "video"
+
 end
