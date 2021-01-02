@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-$flash=true
-$disc=true
-=======
 # pseudo-code
 class Data
   
@@ -23,4 +19,3 @@ class Data
   $a = __FILE__
   $v = __LINE__
 end
->>>>>>> 94149e05c677f8b4818e2005bf0cc72a2a22eb1e
