@@ -138,23 +138,38 @@ Sprites serve as directional input, whether intentional or unintentional, servin
 ## Geek: Declarative
 
 ### I - Awake - Infant: Codebase
+##### Goal: Spin up a spool.
 #### II - Growth - Child: Dependencies
+##### Goal: Add threads to a spool.
 #### III - Discovery - Adolescent: Config
+##### Goal: Decipher Threads.
 
 ## Flash: Maximum Portability
 
 ### IV - Trust - Rookie: Backing Services
+##### Goal: Create cipher, private API.
 #### V - Truth - Amateur: Build, Release, Run
+##### Goal: Compare spool.
+```If my writing utensil (e.g. pen) doesn't accomplish the same task, what is different with my Geek and/or spool?```
 #### VI - Magic - Associate: Processes
+##### Goal: Accomplish task
 
 ## Paji: Continuous Deployment
 
 ### VII - Poetry - Professional: Port Binding
+##### Goal: All art is derivative, lest ye revert.
 #### VIII - Drive - Master: Concurrency
+##### Goal: Container creation, canvas management.
 #### IX - Will - Legend: Disposability
+##### Goal: Specializations, attributes.
 
 ## Cursor: Scale Up
 
 ### X - Loyal - Penultimate: Dev/Prod Parity
+##### Goal: "Battle" Geeks, "winning" is relative.
+```Survival instincts, necessities of life```
 #### XI - Enthusiasm - Ultimate: Logs
+##### Goal: Analysis, statistics.
 #### XII - Clarity - Awesome: Maximum Portability
+##### Goal: Drawing the screen, public/productions.
+```Sets the physical stage```
