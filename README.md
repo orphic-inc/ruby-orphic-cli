@@ -138,20 +138,20 @@ Sprites serve as directional input, whether intentional or unintentional, servin
 ## Geek: Declarative
 
 ### I - Awake - Infant: Codebase
-#### II - Growth - Rookie: Dependencies
-#### III - Discovery - Champion: Config
+#### II - Growth - Child: Dependencies
+#### III - Discovery - Adolescent: Config
 
 ## Flash: Maximum Portability
 
-### IV - Trust - Angel: Backing Services
-#### V - Truth - Fallen Angel: Build, Release, Run
-#### VI - Magic - Version: Processes
+### IV - Trust - Rookie: Backing Services
+#### V - Truth - Amateur: Build, Release, Run
+#### VI - Magic - Associate: Processes
 
 ## Paji: Continuous Deployment
 
-### VII - Poetry - Distinct: Port Binding
-#### VIII - Drive - Professional: Concurrency
-#### IX - Will - Mega: Disposability
+### VII - Poetry - Professional: Port Binding
+#### VIII - Drive - Master: Concurrency
+#### IX - Will - Legend: Disposability
 
 ## Cursor: Scale Up
 
