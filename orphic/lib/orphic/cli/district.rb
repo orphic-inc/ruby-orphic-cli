@@ -17,18 +17,18 @@ module Orphic
       long_desc <<-CREATE_DISTRICT
         Create a new district with createDistrict. Base map includes the following options for branching:
 
-        \x5--AWAKE - I. Infant - The entrypoint. Create command line interfaces, web portals, and related tech. Factor:
-        \x5--GROW - II. - User Interfaces and Experiences, projects here relate to front-end like React, CSS, and prototypes. Factor:
-        \x5--DISCOVER - III. - Your current location. Educate your peers or yourself. Factor:
-        \x5--TRUST - IV. - Create authorization, cyphers, and cryptography-related projects. Factor:
-        \x5--TRUTH - V. - The gateway. Can be used to verify authorizations and is often tied to the Trust District. Factor:
-        \x5--MAGIC - VI. - Let the magic begin! Here you can create ephemeral changes and middleware. Factor:
-        \x5--POETRY - VII.  - The poet, the lover, and the coder are of imagination all compact... Code as art. Factor:
-        \x5--DRIVE - VIII. Legend - Real-time commands that will effect a concurrent stream or processes. Factor:
-        \x5--WILL - IX. Mega - Databases and permanence. Factor:
-        \x5--LOYAL - X. Penultimate - The gauntlet. Test your loyalty with user or unit testing. Factor:
-        \x5--ENTHUSE - XI. Ultimate - Live events and promotions. Factor:
-        \x5--CLARITY - XII. Awesome - The endgame, from your command-line, through staging and production. Factor:
+        \x5--AWAKE - I. Infant - The entrypoint. Create command line interfaces, web portals, and related tech. Factor: Codebase
+        \x5--GROW - II. Child - User Interfaces and Experiences. Projects here relate to front-end like React, CSS, and prototypes. Factor: Dependencies
+        \x5--DISCOVER - III. Adolescent - Your current location. Educate your peers or yourself. Factor: Config
+        \x5--TRUST - IV. Rookie - Create authorization, cyphers, and cryptography-related projects. Factor: Backing Services
+        \x5--TRUTH - V. Amateur - The gateway. Can be used to verify authorizations and should be tied to the Trust District. Factor: Build, Release, Run
+        \x5--MAGIC - VI. Associate - Let the magic begin! Create ephemeral changes and middleware. Factor: Processes
+        \x5--POETRY - VII. Professional - The poet, the lover, and the coder are of imagination all compact... Code as art. Factor: Port Binding
+        \x5--DRIVE - VIII. Master - Real-time commands that effects streams or processes. Factor: Concurrency
+        \x5--WILL - IX. Legend - Databases and permanence. Factor: Disposability
+        \x5--LOYAL - X. Penultimate - The gauntlet. Test your loyalty with user or unit testing. Factor: Dev/Prod Parity
+        \x5--ENTHUSE - XI. Ultimate - Live events and promotions. Factor: Logs
+        \x5--CLARITY - XII. Awesome - The endgame, from your command-line, through staging and production. Factor: Admin Process
       CREATE_DISTRICT
       option :awake
       option :grow
