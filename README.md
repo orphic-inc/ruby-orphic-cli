@@ -14,7 +14,8 @@ If looking to develop your own front end, check out our [rails fork here](https:
 
 ### Getting Started
 
-The Orphic CLI runs on both Ruby and NodeJS, and to get started with either we recommend using [Brew](https://brew.sh) on Linux and Unix distros (including macOS), or [Chocolatey](https://chocolatey.org/) for Windows users. The CLI is currently focused on *-nix* developer environments, but v2 will focus on Windows PowerShell shortcuts via Chocolatey. With these package managers you can install [nvm](https://github.com/nvm-sh/nvm) and [rbenv](https://github.com/rbenv/rbenv), software that will create environments for any specified version. On *-nix* variants, we recommend against using such package managers for installing nvm as it should be manually installed ([see here](https://stackoverflow.com/a/55484417)), but on Windows Chocolatey works (“¯\_(ツ)_/¯“). We recommend Ruby version 2.7.1 and Node version 12 or 14. [Google is your friend](https://lmgtfy.com/?q=install+ruby+and+rubygems), and this is a [good article for macOS users](https://www.moncefbelyamani.com/the-definitive-guide-to-installing-ruby-gems-on-a-mac/). If those steps are complete, you can install the gem locally with `gem install orphic`.
+The Orphic CLI runs on both Ruby and NodeJS, and to get started with either we recommend using [Brew](https://brew.sh) on Linux and Unix distros (including macOS), or [Chocolatey](https://chocolatey.org/) for Windows users. The CLI is currently focused on *-nix* developer environments, but v2 will focus on Windows PowerShell shortcuts via Chocolatey. With these package managers you can install [nvm](https://github.com/nvm-sh/nvm) and [rbenv](https://github.com/rbenv/rbenv), software that will create environments for any specified version. On -nix variants, we recommend against using such package managers for installing nvm as it should be manually installed (see here), but on Windows Chocolatey works (“¯_(ツ)_//¯“). We recommend Ruby version 2.7.1 and Node version 12 or 14. [Google is your friend](https://lmgtfy.com/?q=install+ruby+and+rubygems), and this is a [good article for macOS users](https://www.moncefbelyamani.com/the-definitive-guide-to-installing-ruby-gems-on-a-mac/). If those steps are complete, you can install the gem locally with `gem install orphic`.
+
 
 ### Developer Installation
 
@@ -138,23 +139,44 @@ Sprites serve as directional input, whether intentional or unintentional, servin
 ## Geek: Declarative
 
 ### I - Awake - Infant: Codebase
-#### II - Growth - Rookie: Dependencies
-#### III - Discovery - Champion: Config
+##### Goal: Spin up a spool.
+```trial by fire```
+#### II - Growth - Child: Dependencies
+##### Goal: Add threads to a spool.
+```Plugin/extension/dongle```
+#### III - Discovery - Adolescent: Config
+##### Goal: Decipher Threads.
+```convert to code or ffmpeg handles```
 
 ## Flash: Maximum Portability
 
-### IV - Trust - Angel: Backing Services
-#### V - Truth - Fallen Angel: Build, Release, Run
-#### VI - Magic - Version: Processes
+### IV - Trust - Rookie: Backing Services
+##### Goal: Create cipher, private API.
+``` like artdevelapp.com or artdevel.app or wuu.bi or spenser.tv or orphic.sh```
+
+#### V - Truth - Amateur: Build, Release, Run
+##### Goal: Compare spool.
+```If my writing utensil (e.g. pen) doesn't accomplish the same task, what is different with my Geek and/or spool?```
+#### VI - Magic - Associate: Processes
+##### Goal: Accomplish task
 
 ## Paji: Continuous Deployment
 
-### VII - Poetry - Distinct: Port Binding
-#### VIII - Drive - Professional: Concurrency
-#### IX - Will - Mega: Disposability
+### VII - Poetry - Professional: Port Binding
+```https://cloud.google.com/apis/docs/system-parameters```
+##### Goal: All art is derivative, lest ye revert.
+#### VIII - Drive - Master: Concurrency
+##### Goal: Container creation, canvas management.
+#### IX - Will - Legend: Disposability
+##### Goal: Specializations, attributes.
 
 ## Cursor: Scale Up
 
 ### X - Loyal - Penultimate: Dev/Prod Parity
+##### Goal: "Battle" Geeks, "winning" is relative.
+```Survival instincts, necessities of life```
 #### XI - Enthusiasm - Ultimate: Logs
+##### Goal: Analysis, statistics.
 #### XII - Clarity - Awesome: Maximum Portability
+##### Goal: Drawing the screen, public/productions.
+```Sets the physical stage```
