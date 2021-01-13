@@ -139,15 +139,20 @@ Sprites serve as directional input, whether intentional or unintentional, servin
 
 ### I - Awake - Infant: Codebase
 ##### Goal: Spin up a spool.
+```trial by fire```
 #### II - Growth - Child: Dependencies
 ##### Goal: Add threads to a spool.
+```Plugin/extension/dongle```
 #### III - Discovery - Adolescent: Config
 ##### Goal: Decipher Threads.
+```convert to code or ffmpeg handles```
 
 ## Flash: Maximum Portability
 
 ### IV - Trust - Rookie: Backing Services
 ##### Goal: Create cipher, private API.
+``` like artdevelapp.com or artdevel.app or wuu.bi or spenser.tv or orphic.sh```
+
 #### V - Truth - Amateur: Build, Release, Run
 ##### Goal: Compare spool.
 ```If my writing utensil (e.g. pen) doesn't accomplish the same task, what is different with my Geek and/or spool?```
