@@ -22,10 +22,10 @@ module Orphic
       long_desc <<-GEEK_CURSOR
         Info about Geek's instructions, discs, and audio or video if supplied.
       GEEK_CURSOR
-      option :ins
-      option :disc
-      option :audio
-      option :video
+      option :ins, :required => true
+      option :disc, :type => :boolean
+      option :audio, :type => :hash
+      option :video, :type => :hash
       def GeekCursor ( currentGeek )
         CLI::UI::Frame.open( "Cursor :: Geek : " + currentGeek ) do
           puts "#{currentGeek}"

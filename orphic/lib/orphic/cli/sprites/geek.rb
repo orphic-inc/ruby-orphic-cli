@@ -2,11 +2,23 @@
 module Orphic
   module OrphicCli
     class Thread < Thor
+      desc "Cursor", "This geek's location."
+      long_desc <<-CURSOR
+        The real Cursor.
+
+      CURSOR
       def Cursor()
         __FILE__
+        puts "The Real Cursor."
       end
+      desc "Paji", "Pajination (Paginated journaling)"
+      long_desc <<-PAJI
+        The real Paji.
+
+      PAJI
       def Paji()
         __LINE__
+        puts "The Real Paji."
       end
       puts "Cursor"
       puts "Paji"

@@ -30,6 +30,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
   spec.add_dependency "thor", "~> 0.20"
   spec.add_dependency "cli-ui", "~> 1.4"
+  spec.add_dependency "dotenv", "~> 2.1"
   spec.add_dependency "stripe", "~> 5.28"
   spec.add_dependency "rails", "~> 6.0.3"
   spec.add_dependency "mongo", "~> 2.14.0.rc1"
