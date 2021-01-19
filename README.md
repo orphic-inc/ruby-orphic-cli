@@ -98,22 +98,6 @@ Access-Control-Allow-Origin: *
 X-Frame-Options: deny
 ```
 
-## Roadmap
-
-### Shell Geek
-
-### Jekyll Geek
-
-### Brew Geek
-
-### Chocolatey Geek
-
-### Node Geek
-
-### BigCommerce Geek
-
-### Google Cloud Geek
-
 # spools
 
 A spool can be most likened to a volume or book in that threads make up pages, where a spool can ascertain specific locations where Geeks were infantized, using the Paji and Cursor Geeks respectively. Paji specifies for uncommon keywords or commands you may not yet be familiar with, but has been identified as a Cursor Geek by Flash. Flash assists with real-time rendering and ephemeral changes. This creates a perpetual system via [Relational and Non-Relational databases](https://medium.com/@zhenwu93/relational-vs-non-relational-databases-8336870da8bc), as seen in our [example mongoDb doc](https://github.com/orphic-inc/ruby-orphic-cli/blob/main/orphic/lib/orphic/cli/sprites/cursor.rb).
