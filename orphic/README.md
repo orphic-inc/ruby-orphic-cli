@@ -22,7 +22,7 @@ Or install it yourself as:
 
 You'll need [Ruby](https://www.ruby-lang.org/en/documentation/installation/) and Rubygems installed for the Ruby Orphic CLI to function and develop your own commands or plugins. This is built using the [Thor toolkit (Insecure Link!)](http://whatisthor.com/) and [Ruby on Rails](https://rubyonrails.org/).
 
-If looking to develop your own front end, check out our [rails fork here](https://github.com/orphic-inc/ruby-orphic-cli/tree/main/orphic-rails). You can [Get Started with Rails](https://guides.rubyonrails.org/getting_started.html) by following the linked guide and for more in-depth tutorials check out [Team Tree House](https://teamtreehouse.com/library/topic:ruby).
+If looking to develop your own front end, check out our [rails fork here (broken link, coming soon!)](https://github.com/orphic-inc/ruby-orphic-cli/tree/main/orphic-rails). You can [Get Started with Rails](https://guides.rubyonrails.org/getting_started.html) by following the linked guide and for more in-depth tutorials check out [Team Tree House](https://teamtreehouse.com/library/topic:ruby).
 
 ## Basic Guide to a Web Development environment for the Orphic CLI
 
@@ -30,7 +30,7 @@ If looking to develop your own front end, check out our [rails fork here](https:
 
 ### Getting Started
 
-The Orphic CLI runs on both Ruby and NodeJS, and to get started with either we recommend using [Brew](https://brew.sh) on Linux and Unix distros (including macOS), or [Chocolatey](https://chocolatey.org/) for Windows users. The CLI is currently focused on *-nix* developer environments, but v2 will focus on Windows PowerShell shortcuts via Chocolatey. With these package managers you can install [nvm](https://github.com/nvm-sh/nvm) and [rbenv](https://github.com/rbenv/rbenv), software that will create environments for any specified version. We recommend Ruby version 2.7.1 and Node version 12 or 14. [Google is your friend](https://lmgtfy.com/?q=install+ruby+and+rubygems), and this is a [good article for macOS users](https://www.moncefbelyamani.com/the-definitive-guide-to-installing-ruby-gems-on-a-mac/). If those steps are complete, you can install the gem locally with `gem install orphic`.
+The Orphic CLI runs on both Ruby and NodeJS, and to get started with either we recommend using [Brew](https://brew.sh) on Linux and Unix distros (including macOS), or [Chocolatey](https://chocolatey.org/) for Windows users. The CLI is currently focused on *-nix* developer environments, but v2 will focus on Windows PowerShell shortcuts via Chocolatey [(there's a few ways you can get started today on Windows)](https://phoenixnap.com/kb/install-ruby-on-windows-10). With these package managers you can install [nvm](https://github.com/nvm-sh/nvm) and [rbenv](https://github.com/rbenv/rbenv), software that will create environments for any specified version. We recommend Ruby version 2.7.1 and Node version 12 or 14. [Google is your friend](https://lmgtfy.com/?q=install+ruby+and+rubygems), and this is a [good article for macOS users](https://www.moncefbelyamani.com/the-definitive-guide-to-installing-ruby-gems-on-a-mac/). If those steps are complete, you can install the gem locally with `gem install orphic`.
 
 ### Developer Installation
 
