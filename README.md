@@ -98,3 +98,9 @@ X-Frame-Options: deny
 ### git status
 ### git push
 ### git push -u origin main
+
+
+## Common Errors
+
+``Permission denied when installing bundler```
+https://bundler.io/doc/troubleshooting.html
