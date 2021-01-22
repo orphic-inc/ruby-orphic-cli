@@ -102,5 +102,4 @@ X-Frame-Options: deny
 
 ## Common Errors
 
-``Permission denied when installing bundler```
-https://bundler.io/doc/troubleshooting.html
+[```Permission denied when installing bundler```](https://bundler.io/doc/troubleshooting.html)
