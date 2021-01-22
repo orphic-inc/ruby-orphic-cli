@@ -104,7 +104,10 @@ X-Frame-Options: deny
 ### git push
 ### git push -u origin main
 
-
 ## Common Errors
 
 [```Permission denied when installing bundler```](https://bundler.io/doc/troubleshooting.html)
+[```Development tools error```](https://stackoverflow.com/a/63442072/9281567)
+
+sudo apt-get install ubuntu-dev-tools
+
