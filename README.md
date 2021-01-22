@@ -13,7 +13,7 @@ The Orphic CLI runs on both Ruby and NodeJS, and to get started with either we r
 On Windows you'll need to install [Windows Subsystem Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) ([“¯_(ツ)_//¯“](https://gorails.com/setup/windows/10)).
 v2 will focus on Windows PowerShell shortcuts via Chocolatey ([Soon! If you'd like to create a Chocolatey pluj for us, see this!](https://chocolatey.org/packages/travis)).
 
-We recommend Ruby version 2.7.1 and Node version 12 or 14. [Google is your friend](https://lmgtfy.com/?q=install+ruby+and+rubygems), and this is a [good article for macOS users](https://www.moncefbelyamani.com/the-definitive-guide-to-installing-ruby-gems-on-a-mac/). If those steps are complete, you can install the gem locally with `gem install orphic`.
+We recommend Ruby version 2.7.1 and Node version 12 or 14. [Google is your friend](https://lmgtfy.com/?q=install+ruby+and+rubygems), and this is a [good article for macOS users](https://www.moncefbelyamani.com/the-definitive-guide-to-installing-ruby-gems-on-a-mac/) - ([Ubuntu/WSL](https://stackify.com/install-ruby-on-ubuntu-everything-you-need-to-get-going/)). If those steps are complete, you can install the gem locally with `gem install orphic`.
 
 Use of either the Ruby or NodeJS CLIs can be independent, for more complex applications use of both leads to more succinct solutions when justified. These features are currently in progress and documentation will be noted here when available. V2 will incorporate the rails gem as a means of deploying NodeJS/Docker containers.
 
