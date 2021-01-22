@@ -109,5 +109,5 @@ X-Frame-Options: deny
 [```Permission denied when installing bundler```](https://bundler.io/doc/troubleshooting.html)
 [```Development tools error```](https://stackoverflow.com/a/63442072/9281567)
 
-sudo apt-get install ubuntu-dev-tools
+`sudo apt-get install ubuntu-dev-tools`
 
