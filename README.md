@@ -8,9 +8,9 @@ You'll need [Ruby](https://www.ruby-lang.org/en/documentation/installation/) and
 
 ### Getting Started
 
-The Orphic CLI runs on both Ruby and NodeJS, and to get started with either we recommend using [Brew](https://brew.sh) on Linux and Unix distros (including macOS), or [Chocolatey](https://chocolatey.org/) for Windows users. The CLI is currently focused on *-nix* developer environments, but v2 will focus on Windows PowerShell shortcuts via Chocolatey. With these package managers you can install [nvm](https://github.com/nvm-sh/nvm) and [rbenv](https://github.com/rbenv/rbenv), software that will create environments for any specified version. On -nix variants, we recommend against using such package managers for installing nvm as it should be manually installed (see here), but on Windows Chocolatey works (“¯_(ツ)_//¯“). We recommend Ruby version 2.7.1 and Node version 12 or 14. [Google is your friend](https://lmgtfy.com/?q=install+ruby+and+rubygems), and this is a [good article for macOS users](https://www.moncefbelyamani.com/the-definitive-guide-to-installing-ruby-gems-on-a-mac/). If those steps are complete, you can install the gem locally with `gem install orphic`.
+The Orphic CLI runs on both Ruby and NodeJS, and to get started with either we recommend using [Brew](https://brew.sh) on Linux and Unix distros (including macOS), or [Chocolatey](https://chocolatey.org/) for Windows users. The CLI is currently focused on *-nix* developer environments, but v2 will focus on Windows PowerShell shortcuts via Chocolatey (Soon!). With these package managers you can install [nvm](https://github.com/nvm-sh/nvm) and [rbenv](https://github.com/rbenv/rbenv), software that will create environments for any specified version. On -nix variants, we recommend against using such package managers for installing nvm as it should be manually installed ([see here](https://stackoverflow.com/a/41913355/9281567)), but on Windows you'll need to install [Windows Subsystem Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) ([“¯_(ツ)_//¯“](https://gorails.com/setup/windows/10)). We recommend Ruby version 2.7.1 and Node version 12 or 14. [Google is your friend](https://lmgtfy.com/?q=install+ruby+and+rubygems), and this is a [good article for macOS users](https://www.moncefbelyamani.com/the-definitive-guide-to-installing-ruby-gems-on-a-mac/). If those steps are complete, you can install the gem locally with `gem install orphic`.
 
-Use of either the Ruby or NodeJS CLIs can be independent, for more complex applications use of both leads to more succinct solutions when justified. These features are currently in progress and documentation will be noted here when available.
+Use of either the Ruby or NodeJS CLIs can be independent, for more complex applications use of both leads to more succinct solutions when justified. These features are currently in progress and documentation will be noted here when available. V2 will incorporate the rails gem as a means of deploying NodeJS/Docker containers.
 
 ### Developer Installation
 
@@ -92,3 +92,7 @@ Response headers
 Access-Control-Allow-Origin: *
 X-Frame-Options: deny
 ```
+
+### git status
+### git push
+### git push -u origin main
