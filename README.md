@@ -10,7 +10,7 @@ You'll need [Ruby](https://www.ruby-lang.org/en/documentation/installation/) and
 
 Once the steps above are complete, you'll need the Bundler Ruby gem to locally bundle any changes made with `gem install bundler`. For more on [Bundler](https://bundler.io/) and Gemfiles, check out the [bundler docs here](https://bundler.io/gemfile.html). To build from source, clone the repo, access the directory and run `bundle install`. **We strongly recommend using version control before continuing further.** You can clone the ruby-orphic-cli repository into your own and once your changes are complete, they can be submitted for review via a Pull Request. If unfamiliar with git, Orphic recommends [Git SCM](https://git-scm.com/). 
 
-It is highly recommended to use macOS or Linux as a base operating system when developing on our CLI in its current state.
+It is highly recommended to use macOS or Linux as a base operating system when developing on our CLI in its current state. **Windows Linux Subsystem 2 requires sudo for most functions**
 
 ## Common Errors
 
