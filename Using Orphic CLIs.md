@@ -22,6 +22,12 @@ To create a District, it is required to have an accessible (via SSL and redirect
 
 Sprites serve as directional input, whether intentional or unintentional, serving a focal point for where all attention has become interest with a beginning state of (0,0).
 
+The names of many things in this project are literal and figurative as a means of remaining as removed as possible from advantageous or disadventageous means of exploration, and Sprites are where this will be seen most obviously. Setting an initial compass as stated above, a project begins with declaring short or broad in scope. This could be compared to a `switch` statement:
+
+`Ruby || Golang = Cursor/Geek || Paji/Flash`
+
+``
+
 // TODO
 
 ## Geek: Declarative
