@@ -6,6 +6,14 @@
 
 You'll need [Ruby](https://www.ruby-lang.org/en/documentation/installation/) and Rubygems installed for the Ruby Orphic CLI to function and develop your own commands or plugins. This is built using the [Thor toolkit (Insecure Link!)](http://whatisthor.com/) and [Ruby on Rails](https://rubyonrails.org/). If `npm --version` runs in your console, you can also connect the Ruby CLI with our [Node.JS CLI](https://github.com/orphic-inc/node-orphic-cli). To learn more about Rubygems see the [Rubygems.org API](https://guides.rubygems.org/rubygems-org-api/) for more info on accessing various `gem` functionalities.
 
+## `neo` Windows Quick-Start Mini-Guide
+
+[Install Windows 10](https://www.microsoft.com/en-us/software-download/windows10)
+[Install Google Chrome](https://google.com/chrome)
+[(DEV) Install Canary](https://google.com/chrome/canary)
+(DEV) Install [Sublime Text](https://www.sublimetext.com/) AND/OR [VS Code](https://code.visualstudio.com/download) + git extensions
+[Install WSL2](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+
 ### Developer Installation
 
 Once the steps above are complete, you'll need the Bundler Ruby gem to locally bundle any changes made with `gem install bundler`. For more on [Bundler](https://bundler.io/) and Gemfiles, check out the [bundler docs here](https://bundler.io/gemfile.html). To build from source, clone the repo, access the directory and run `bundle install`. **We strongly recommend using version control before continuing further.** You can clone the ruby-orphic-cli repository into your own and once your changes are complete, they can be submitted for review via a Pull Request. If unfamiliar with git, Orphic recommends [Git SCM](https://git-scm.com/). 
