@@ -53,7 +53,7 @@ The names of many things in this project are literal and figurative as a means o
 ```If my writing utensil (e.g. pen) doesn't accomplish the same task, what is different with my Geek and/or spool?```
 #### VI - Magic - Associate: Processes
 ##### Goal: Accomplish task
-
+```git GameStock```
 ## Paji: Continuous Deployment
 
 ### VII - Poetry - Professional: Port Binding
