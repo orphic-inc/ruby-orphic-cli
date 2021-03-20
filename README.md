@@ -123,3 +123,19 @@ X-Frame-Options: deny
 ### git push
 ### git push -u origin main
 
+
+### Next Steps:
+
+# 1.0.0 
+## Integrate [Node.JS Orphic CLI](https://github.com/orphic-inc/node-orphic-cli)
+
+### Finish diagramming / roadmapping
+
+# 1.5.0
+## Integrate gCloud CLI APIs & Billing APIs // &/|| GitHub / Vercel/ZEIT.CO APIs / GHActions and/or GHPages.
+
+### Integrate Blockchain &&\/|| additional necessary APIs to handle off-load advanced (and/or atypical) reciprocal calling.
+## [https://github.com/orphic-inc/cardano-meta-handler](Cursor)
+## [https://github.com/orphic-inc/serial](Paji)
+## [https://github.com/orphic-inc/ACNHMobileSpawner](Geek)
+## [https://github.com/orphic-inc/reach-wager](Sprite)
