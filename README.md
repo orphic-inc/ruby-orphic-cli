@@ -8,7 +8,7 @@ You'll need [Ruby](https://www.ruby-lang.org/en/documentation/installation/) and
 
 ### Front End Development 
 
-[https://github.com/slatedocs/slate/wiki/Using-Slate-Natively](Get Slate running)
+[Follow these steps](https://github.com/slatedocs/slate/wiki/Using-Slate-Natively) to run Slate for Front-end of orphicoin.com
 
 #### `neo` Windows Quick-Start Mini-Guide
 
