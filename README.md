@@ -6,6 +6,10 @@
 
 You'll need [Ruby](https://www.ruby-lang.org/en/documentation/installation/) and Rubygems installed for the Ruby Orphic CLI to function and develop your own commands or plugins. This is built using the [Thor toolkit (Insecure Link!)](http://whatisthor.com/) and [Ruby on Rails](https://rubyonrails.org/). If `npm --version` runs in your console, you can also connect the Ruby CLI with our [Node.JS CLI](https://github.com/orphic-inc/node-orphic-cli). To learn more about Rubygems see the [Rubygems.org API](https://guides.rubygems.org/rubygems-org-api/) for more info on accessing various `gem` functionalities.
 
+### Front End Development 
+
+[https://github.com/slatedocs/slate/wiki/Using-Slate-Natively](Get Slate running)
+
 #### `neo` Windows Quick-Start Mini-Guide
 
 - [Install Windows 10](https://www.microsoft.com/en-us/software-download/windows10)
