@@ -1,11 +1,16 @@
 require 'orphic/cli/sprites/geek'
 
 # todo
-#if flash
+# if flash
 #    flashState = true
-#end
+# end
 
 # send discs here, this is where the lifecycle of a composition
-#if disc
-#    discState = true
-#end
+
+## Apollo Federation Supergraph Composition
+# if disc
+#     discState = true
+# end
+
+# else
+# Schema
