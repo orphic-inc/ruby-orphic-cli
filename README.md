@@ -4,11 +4,11 @@
 
 ## Installation
 
-You'll need [Ruby](https://www.ruby-lang.org/en/documentation/installation/) and Rubygems installed for the Ruby Orphic CLI to function and develop your own commands or plugins. This is built using the [Thor toolkit (Insecure Link!)](http://whatisthor.com/) and [Ruby on Rails](https://rubyonrails.org/). If `npm --version` runs in your console, you can also connect the Ruby CLI with our [Node.JS CLI](https://github.com/orphic-inc/node-orphic-cli). To learn more about Rubygems see the [Rubygems.org API](https://guides.rubygems.org/rubygems-org-api/) for more info on accessing various `gem` functionalities.
+You'll need [Ruby](https://www.ruby-lang.org/en/documentation/installation/) and Rubygems installed for the Ruby Orphic CLI to function and develop your own commands or plugins. This is built using the [Thor toolkit (Insecure Link!)](http://whatisthor.com/), [RSpec](https://rspec.info/documentation/), and other commonly found gems in Ruby CLIs. Inspired by [this video](https://www.youtube.com/watch?v=1ILEw6Qca3U). If `npm --version` runs in your console, you can also connect the Ruby CLI with our [Node.JS CLI](https://github.com/orphic-inc/node-orphic-cli) [_Editor's Note_: Future state]. To learn more about Rubygems see the [Rubygems.org API](https://guides.rubygems.org/rubygems-org-api/) for more info on accessing various `gem` functionalities.
 
 ### Front End Development 
 
-[Follow these steps](https://github.com/slatedocs/slate/wiki/Using-Slate-Natively) to run Slate for Front-end of orphicoin.com
+[Follow these steps](https://github.com/slatedocs/slate/wiki/Using-Slate-Natively) to run Slate for Front-end of orphicoin.com. //TODO connect CLI to front-end.
 
 #### `neo` Windows Quick-Start Mini-Guide
 
@@ -54,7 +54,7 @@ macOS includes a version of ruby and for that reason Orphic recommends using shi
 
 ## orphic help
 
-This will help you get started, there are currently these commands and subcommands available:
+[This will help you get started developing new commands with thor](https://github.com/rails/thor/wiki), there are currently these commands and subcommands available:
 
 ```
 hello
