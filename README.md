@@ -141,7 +141,7 @@ X-Frame-Options: deny
 ## Integrate gCloud CLI APIs & Billing APIs // &/|| GitHub / Vercel/ZEIT.CO APIs / GHActions and/or GHPages.
 
 ### Integrate Blockchain &&\/|| additional necessary APIs to handle off-load advanced (and/or atypical) reciprocal calling.
-## [https://github.com/orphic-inc/cardano-meta-handler](Cursor)
-## [https://github.com/orphic-inc/serial](Paji)
+## [Cursor](https://github.com/orphic-inc/cardano-meta-handler)
+## [Paji]((https://github.com/orphic-inc/serial)
 ## [https://github.com/orphic-inc/ACNHMobileSpawner](Geek)
-## [https://github.com/orphic-inc/reach-wager](Sprite)
+## [Sprite](https://github.com/orphic-inc/reach-wager)
