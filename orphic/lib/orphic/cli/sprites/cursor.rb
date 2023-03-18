@@ -8,7 +8,8 @@ module Orphic
       desc "posCursor", "Cursory iterations."
       long_desc <<-POS_CURSOR
         Cursory iterations with mongoDB, SQL, and other datasets. Cursor helps
-        find specific info, whereas Paji is better suited for unknown parameters.
+        find info about a specific location (such as a URL, URI, MAC address). 
+        See Paji for paginated search.
 
         Learn more about DB commands with <Cursor mongoDb help>.
       POS_CURSOR
